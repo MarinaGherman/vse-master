@@ -1,0 +1,60 @@
+@import "../../styles/const";
+
+.affix {
+  z-index: 100;
+  
+}
+.header {
+  .links {
+    text-align: center;
+    font-weight: 300;
+    opacity: 0.6;
+    display: flex;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.05em;
+    a {
+      margin: 15px auto;
+    }
+  }
+  .logo {
+    font-style: normal;
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 149.3%;
+    color: #FEC702;
+    @media (min-width: $mobile-min-width) and (max-width: $mobile-max-width){
+      font-size: 20px;
+      margin-left: 20px;
+    }
+  }
+  padding-top: 40px;
+  .userIcon {
+    text-align:right;
+  }
+  .orangeBlock {
+    display: inline-block;
+    text-align:right;
+    background: var(--primary);
+    width: 53px;
+    height: 53px;
+	border-radius: 5px;
+    position: relative;
+    @media (min-width: $mobile-min-width) and (max-width: $mobile-max-width){
+      width: 30px;
+      height: 30px;
+      margin-right: 20px;
+    }
+    img {
+      padding: 5px;
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+      @media (min-width: $mobile-min-width) and (max-width: $mobile-max-width){
+        width: 22px;
+      }
+    }
+  }
+  
+}

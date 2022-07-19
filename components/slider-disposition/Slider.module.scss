@@ -1,0 +1,55 @@
+@import "../../styles/const";
+
+.sliderContainer {
+  right: auto;
+  left: auto;
+  margin-left: auto;
+  height: auto;
+  max-height: 200px;
+  overflow: hidden;
+  overflow-x: scroll;
+
+  &::-webkit-scrollbar {
+    height: 3px;
+  }
+  
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: #C4C4C4;
+  }
+  
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    
+    background: var(--primary);
+  }
+  
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: var(--primary);
+  }
+  
+}
+
+
+.slider {
+  width: max-content;
+  
+  .card {
+    display: inline-table;
+    margin: 0 15px;
+    padding: 25px;
+    text-align: center;
+    border-radius: 10px;
+    width: 145px;
+    height: 150px;
+    background: var(--background);
+    p{
+      margin-top: 10px;
+      font-weight: 500;
+      font-size: 15px;
+      line-height: 120.2%;
+      letter-spacing: 0.04em;
+    }
+  }
+}

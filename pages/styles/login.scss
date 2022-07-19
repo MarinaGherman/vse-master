@@ -1,0 +1,63 @@
+@import "../../styles/const";
+
+.loginContainer {
+  text-align: center;
+  background: var(--primary);
+  margin: 150px;
+  border-radius: 10px;
+  h1 {
+	padding-top: 60px;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 150%;
+	text-align: center;
+	color: #000000;
+	margin-bottom: 20px;
+  }
+  .input {
+	color: #0E0D0C;
+	border: 1px solid #000000;
+	border-radius: 6px;
+	padding: 10px;
+	padding-left: 20px;
+	&::placeholder {
+	  color: #0E0D0C;
+	  opacity: 0.5;
+	}
+	
+	input {
+	  color: #131313;
+	  &::placeholder {
+		color: #0E0D0C;
+		opacity: 0.5;
+	  }
+	}
+  }
+  .btn {
+	background: #131313;
+	padding: 20px 60px;
+	line-height: 20px;
+	display: flex;
+	align-items: center;
+	text-align: center;
+	border-radius: 6px;
+  }
+  img {
+	margin-bottom: 10px;
+  }
+  .registration {
+	padding-bottom: 40px;
+	text-align: center;
+	.reg {
+	  font-weight: 300;
+	  font-size: 15px;
+	  line-height: 18px;
+	  align-items: center;
+	  color: #000000;
+	  opacity: 0.5;
+	}
+  }
+  .div {
+	text-align: center;
+  }
+}

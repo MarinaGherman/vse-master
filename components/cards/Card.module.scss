@@ -1,0 +1,36 @@
+@import "../../styles/const";
+
+.card {
+  &.small {
+    height: 110px;
+    width: 146px;
+  }
+  position: relative;
+  margin: 20px;
+  height: 276px;
+  width: 367px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-table;
+  border-radius: 20px;
+  @media (min-width: $mobile-min-width) and (max-width: $mobile-max-width){
+    height: 165px;
+    width: 219px;
+  }
+ 
+  .icon {
+    position: absolute;
+    bottom: -6px;
+    right: 0;
+    .orangeBlock {
+      position: relative;
+    }
+    .playIcon {
+      position: absolute;
+      left: 50%;
+      top: 50%;
+      transform: translate(-50%,-50%);
+    }
+  }
+}

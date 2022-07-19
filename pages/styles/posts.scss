@@ -1,0 +1,225 @@
+@import "../../styles/const";
+
+
+.posts {
+  .media {
+	margin-top: 100px;
+	margin-bottom: 40px;
+	font-weight: bold;
+	font-size: 30px;
+	line-height: 149.3%;
+	color: #FEC702;
+  }
+  .menu {
+	font-weight: 300;
+	font-size: 17px;
+	line-height: 150%;
+	letter-spacing: 0.04em;
+	margin-bottom: 50px;
+  }
+  .active {
+	font-weight: bold;
+	font-size: 17px;
+	line-height: 150%;
+	letter-spacing: 0.04em;
+	text-decoration-line: underline;
+  }
+  .catBtn {
+	text-align: right;
+	.btn {
+	  background: var(--primary);
+	  color: var(--background);
+	  font-weight: 500;
+	  font-size: 14px;
+	  letter-spacing: 0.04em;
+	  padding: 10px 20px;
+	  border-radius: 6px;
+	  border: none;
+	  outline: none;
+	  cursor: pointer;
+	  span {
+		display: inline-block;
+	  }
+	  .icon {
+		display: inline-block;
+		margin-right: 5px;
+	  }
+	}
+  }
+  .event {
+	border-radius: 10px 0 0 10px;
+	background: var(--primary);
+	color: var(--background);
+	padding: 25px;
+	position: relative;
+	p {
+	  font-weight: 300;
+	  font-size: 17px;
+	  line-height: 150%;
+	  letter-spacing: 0.01em;
+	}
+	h2 {
+	  font-weight: bold;
+	  font-size: 35px;
+	  line-height: 42px;
+	  color: var(--background);
+	  margin-bottom: 20px;
+	}
+	
+	.views {
+	  position: absolute;
+	  bottom: 20px;
+	  left: 0;
+	  width: 100%;
+	  
+	  .view {
+		padding-left: 50px;
+		.viewCount {
+		  margin-left: 6px;
+		  font-weight: 300;
+		  font-size: 13px;
+		  line-height: 150%;
+		  letter-spacing: 0.01em;
+		  opacity: 0.5;
+		}
+		.icon {
+		  font-size: 13px;
+		  opacity: 0.5;
+		}
+	  }
+	  
+	  .comments {
+		text-align: right;
+		padding-right: 50px;
+		
+		.commentsCount {
+		  margin-left: 6px;
+		  font-weight: 300;
+		  font-size: 13px;
+		  line-height: 150%;
+		  letter-spacing: 0.01em;
+		  opacity: 0.5;
+		}
+		.icon {
+		  font-size: 13px;
+		  opacity: 0.5;
+		}
+	  }
+	}
+  }
+  .post {
+	width: 262px;
+	height:382px ;
+	background: no-repeat url("/images/posts/3.png");
+	background-size: cover;
+	border-radius: 0 10px 10px 0;
+  }
+  .card {
+	background: #0E0D0C;
+	height: 382px;
+	border-radius: 10px;
+	margin-bottom: 40px;
+	.views {
+	  position: absolute;
+	  bottom: 20px;
+	  left: 0;
+	  width: 100%;
+	
+	  .view {
+		padding-left: 20px;
+		.viewCount {
+		  margin-left: 6px;
+		  font-weight: 300;
+		  font-size: 13px;
+		  line-height: 150%;
+		  letter-spacing: 0.01em;
+		  opacity: 0.5;
+		}
+		.icon {
+		  font-size: 13px;
+		  opacity: 0.5;
+		}
+	  }
+	
+	  .comments {
+		text-align: right;
+		padding-right: 20px;
+	 
+		.commentsCount {
+		  margin-left: 6px;
+		  font-weight: 300;
+		  font-size: 13px;
+		  line-height: 150%;
+		  letter-spacing: 0.01em;
+		  opacity: 0.5;
+		}
+		.icon {
+		  font-size: 13px;
+		  opacity: 0.5;
+		}
+	  }
+	}
+	.cardImg {
+	  background-size: cover;
+	  background-repeat: no-repeat;
+	  background-position: center;
+	  height: 140px;
+	  width: 297px;
+	  border-radius: 10px 10px 0 0;
+	}
+	
+  }
+ .title {
+   padding: 20px;
+   font-weight: 500;
+   font-size: 18px;
+   line-height: 21px;
+ }
+  .btn {
+	padding: 10px 30px;
+	background: #1F1F1F;
+	border-radius: 5px;
+	font-size: 12px;
+	line-height: 14px;
+	font-weight: 300;
+	margin-left: 20px;
+	cursor: pointer;
+  }
+  .cardImagine {
+	position: relative;
+	text-align: center;
+	border-radius: 20px;
+	width: 100%;
+	height: 487px;
+	background: no-repeat url("/images/posts/1.png");
+	background-size: cover;
+	.cardTitle {
+	  position: absolute;
+	  bottom: 20px;
+	  left: 400px;
+	  
+	  h3 {
+		width: 570px;
+		font-weight: bold;
+		font-size: 30px;
+		line-height: 149.3%;
+		text-align: center;
+		color: var(--primary);
+	  }
+	}
+  }
+  .showMore {
+	text-align: center;
+	margin-top: 70px;
+	margin-bottom: 100px;
+	.showMoreBtn {
+	  padding: 15px 30px;
+	  background: #373737;
+	  border-radius: 5px;
+	  color: var(--primary);
+	  border: none;
+	  outline: none;
+	  cursor: pointer;
+	}
+  }
+}

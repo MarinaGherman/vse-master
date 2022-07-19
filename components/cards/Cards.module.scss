@@ -1,0 +1,43 @@
+@import "../../styles/const";
+
+
+.cardsContainer {
+  right: auto;
+  left: auto;
+  margin-left: auto;
+  height: auto;
+  max-height: 660px;
+  overflow: hidden;
+  overflow-x: scroll;
+  padding-top: 10px;
+  @media (min-width: $mobile-min-width) and (max-width: $mobile-max-width){
+    max-height: 210px;
+    max-width: max-content;
+  }
+  
+  &::-webkit-scrollbar {
+    height: 3px;
+  }
+  
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: #C4C4C4;
+  }
+  
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    
+    background: var(--primary);
+  }
+  
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: var(--primary);
+  }
+  
+  .cardsSlide {
+    max-width: 3000px;
+    width: max-content;
+  }
+  
+}

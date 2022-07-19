@@ -1,0 +1,36 @@
+@import "../../styles/const";
+
+
+.container {
+  background-color: #0E0D0C;
+  padding: 15px 5px;
+  border-radius: 10px;
+  height: 100%;
+  .wishContainer {
+	margin-left: 10px;
+	h1 {
+	  padding-bottom: 5px;
+	  font-weight: bold;
+	  font-size: 25px;
+	  line-height: 149.3%;
+	  letter-spacing: 0.02em;
+	  color: var(--primary);
+	}
+	span {
+	  padding-bottom: 10px;
+	  font-weight: 300;
+	  font-size: 15px;
+	  line-height: 18px;
+	  letter-spacing: 0.02em;
+	}
+	.wishSeries {
+	  color: var(--primary);
+	}
+  }
+  .cards {
+	margin: 20px 10px;
+	img {
+	  width: 100%;
+	}
+  }
+}

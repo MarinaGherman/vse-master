@@ -1,0 +1,45 @@
+@import "../../styles/const";
+
+.card {
+  background: #000;
+  position: relative;
+  margin: 20px;
+  height: 366px;
+  width: 366px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: inline-table;
+  border-radius: 20px;
+  text-align: center;
+  @media (min-width: $mobile-min-width) and (max-width: $mobile-max-width){
+    height: 219px;
+    width: 219px;
+  }
+  img {
+   margin-top: 50px;
+    width: 110px;
+    @media (min-width: $mobile-min-width) and (max-width: $mobile-max-width){
+      width: 40px;
+    }
+  }
+  p {
+    font-weight: 300;
+    padding: 40px;
+    font-style: normal;
+    font-size: 17px;
+    line-height: 20px;
+    @media (min-width: $mobile-min-width) and (max-width: $mobile-max-width){
+      font-size: 15px;
+      line-height: 18px;
+      padding: 20px;
+    }
+  }
+  .orange {
+    color: var(--primary);
+    @media (min-width: $mobile-min-width) and (max-width: $mobile-max-width){
+      font-size: 10px;
+      line-height: 12px;
+    }
+  }
+}

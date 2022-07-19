@@ -1,0 +1,17 @@
+@font-face {
+    font-family: "Druk Wide Bold";
+    src: url("styles/fonts/DrunkWideBold/DrunkWideBold.eot");
+    src: url("styles/fonts/DrunkWideBold/DrunkWideBold.eot?#iefix") format("embedded-opentype"),
+    url("styles/fonts/DrunkWideBold/DrunkWideBold.woff2") format("woff2"),
+    url("styles/fonts/DrunkWideBold/DrunkWideBold.woff") format("woff"),
+    url("styles/fonts/DrunkWideBold/DrunkWideBold.ttf") format("truetype"),
+    url("styles/fonts/DrunkWideBold/DrunkWideBold.svg#Druk Wide Bold") format("svg");
+}
+
+
+@font-face {
+    font-family: 'SF UI Display Medium';
+    font-style: normal;
+    font-weight: normal;
+    src: local('SF UI Display Medium'), url('styles/fonts/SfUiDisplay/sf-ui-display-medium.woff') format('woff');
+}

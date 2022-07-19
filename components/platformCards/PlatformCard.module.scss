@@ -1,0 +1,35 @@
+@import "../../styles/const";
+
+.platformCard {
+  position: relative;
+  padding: 10px 20px;
+  background-color: var(--background-active);
+  width: max-content;
+  display: inline-table;
+  margin-left: 20px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+  min-height: 150px;
+  height: 150px;
+ 
+  &:first-child {
+	margin-left: 0;
+  }
+  
+  .title {
+	padding: 5px 15px;
+	margin: 10px;
+	color: var(--primary);
+	border-radius: 5px;
+	border: 1px solid var(--primary);
+	text-align: center;
+  }
+  .price {
+	position: absolute;
+	color: var(--text-color);
+	font-weight: 300;
+	font-size: 20px;
+	right: 10px;
+	bottom: 10px;
+  }
+}

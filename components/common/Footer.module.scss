@@ -1,0 +1,109 @@
+@import "../../styles/const";
+
+.footer {
+  padding: 50px 0;
+  @media (min-width: $mobile-min-width) and (max-width: $mobile-max-width){
+   padding: 50px 20px;
+  }
+  .logo {
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 149.3%;
+    color: var(--primary);
+    @media (min-width: $mobile-min-width) and (max-width: $mobile-max-width){
+      font-size: 20px;
+      margin-bottom: 30px;
+    }
+  }
+  h2 {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 150%;
+    letter-spacing: 0.01em;
+    color: var(--primary);
+    margin-bottom: 30px;
+    @media (min-width: $mobile-min-width) and (max-width: $mobile-max-width){
+      margin-bottom: 20px;
+      margin-top: 20px;
+    }
+  }
+  p {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 220%;
+    @media (min-width: $mobile-min-width) and (max-width: $mobile-max-width){
+      font-size: 15px;
+    }
+  }
+  .contacts {
+    line-height: 70%;
+  }
+  .inputBlock {
+    margin: 20px 0;
+    Input {
+      width: calc(100% - 60px);
+      border-radius: 5px;
+      border: 1px solid #323232;
+      box-sizing: border-box;
+    }
+    button {
+      margin-left: 5px;
+      cursor: pointer;
+      background: var(--primary);
+      color: var(--background-active);
+      border: none;
+      outline: none;
+      text-decoration: none;
+      border-radius: 5px;
+      padding: 6px 15px;
+      font-size: 20px;
+    }
+  }
+ h3 {
+   font-weight: 300;
+   color: #FFFFFF;
+   font-size: 10px;
+   line-height: 170.5%;
+   letter-spacing: 0.01em;
+   
+ }
+  h4 {
+    margin-top: 40px;
+    font-weight: 300;
+    font-size: 9px;
+    line-height: 170.5%;
+    letter-spacing: 0.01em;
+    color: #FFFFFF;
+    opacity: 0.4;
+  }
+}
+
+.input {
+  color: #FFFFFF !important;
+  background-color: transparent;
+  border-radius: 10px;
+  
+  font-size: 18px;
+  
+  input  {
+    color: #FFFFFF !important;
+    background-color: transparent;
+    opacity: 0.6;
+    &::placeholder {
+      color: white;
+      opacity: 0.3;
+      background-color: transparent;
+    }
+  }
+}
+.socialLogo {
+  @media (min-width: $mobile-min-width) and (max-width: $mobile-max-width){
+    display: none;
+  }
+}
+.socialMob {
+  display: none;
+  @media (min-width: $mobile-min-width) and (max-width: $mobile-max-width){
+  
+  }
+}

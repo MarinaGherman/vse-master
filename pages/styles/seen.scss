@@ -1,0 +1,118 @@
+@import "../../styles/const";
+
+.container {
+  background-color: #0E0D0C;
+  padding: 15px 5px;
+  border-radius: 10px;
+  height: 100%;
+  .seenContainer {
+    margin-left: 10px;
+    margin-bottom: 70px;
+    h1 {
+      padding-bottom: 5px;
+      font-weight: bold;
+      font-size: 25px;
+      line-height: 149.3%;
+      letter-spacing: 0.02em;
+      color: var(--primary);
+    }
+    span {
+      padding-bottom: 50px;
+      font-weight: 300;
+      font-size: 15px;
+      line-height: 18px;
+      letter-spacing: 0.02em;
+    }
+    .seenList {
+      color: var(--primary);
+    }
+  }
+  .cards {
+    width: 146px;
+    height: 110px;
+    display: inline-grid;
+    margin-right: 10px;
+    margin-top: 10px;
+    img {
+      width: 100%;
+    }
+  }
+}
+
+.cardsContainer {
+  right: auto;
+  left: auto;
+  margin-left: auto;
+  height: auto;
+  max-height: 460px;
+  overflow: hidden;
+  overflow-x: scroll;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  
+  &::-webkit-scrollbar {
+    height: 3px;
+  }
+  
+  /* Track */
+  &::-webkit-scrollbar-track {
+    background: #C4C4C4;
+  }
+  
+  /* Handle */
+  &::-webkit-scrollbar-thumb {
+    
+    background: var(--primary);
+  }
+  
+  /* Handle on hover */
+  &::-webkit-scrollbar-thumb:hover {
+    background: var(--primary);
+  }
+  
+  .cardsSlide {
+    max-width: 2100px;
+    width: max-content;
+  }
+}
+.statistic {
+    font-weight: 300;
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: 0.02em;
+    margin: 40px 10px;
+}
+.myTags {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  span {
+    margin-left: 10px;
+    border-radius: 6px;
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.04em;
+    padding: 10px 20px;
+    background-color: var(--background);
+  }
+  .tags {
+    cursor: pointer;
+    font-weight: 300;
+    opacity: 0.4;
+  }
+}
+.right {
+  display: block;
+  padding-top: 30px;
+  margin-left: 10px;
+  font-size: 15px;
+  line-height: 18px;
+  letter-spacing: 0.02em;
+  .icon {
+    margin-left: 15px;
+    color: var(--primary);
+    font-size: 12px;
+    
+  }
+}

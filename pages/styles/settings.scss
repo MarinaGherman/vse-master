@@ -1,0 +1,115 @@
+@import "../../styles/const";
+
+.container {
+  background-color: #0E0D0C;
+  padding: 50px 20px 0 20px;
+  border-radius: 10px;
+  height: 100%;
+  h1 {
+    font-weight: 600;
+    font-size: 17px;
+    line-height: 150%;
+    letter-spacing: 0.04em;
+    color: var(--primary);
+    opacity: 0.9;
+    margin-bottom: 20px;
+  }
+  .input {
+    opacity: 0.5;
+    padding: 10px;
+    border-radius: 6px;
+    margin-bottom: 40px;
+  }
+  .icons {
+    text-align: right;
+    margin-bottom: 10px;
+    img {
+      margin-right: 15px;
+      width: 20px;
+      height: 20px;
+    }
+  }
+  .social {
+    text-align: right;
+    p {
+      font-weight: 300;
+      font-size: 12px;
+      letter-spacing: 0.04em;
+      text-decoration-line: underline;
+      opacity: 0.5;
+    }
+  }
+  .edit {
+    text-align: right;
+    .editIcon {
+      color: var(--primary);
+      padding-right: 10px;
+    }
+  }
+  .tags {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    padding: 10px 25px;
+    border-radius: 6px;
+    background-color: #212121;
+    margin-right: 15px;
+    margin-bottom: 10px;
+   
+    .tag {
+      font-weight: 300;
+      font-size: 17px;
+      line-height: 20px;
+      text-align: center;
+      letter-spacing: 0.04em;
+      
+    }
+    .icon {
+      position: absolute;
+      font-size: 11px;
+      top: 15px;
+      right: -4px;
+      opacity: 0.5;
+    }
+  }
+  .newtags {
+    display: inline-block;
+    position: relative;
+    width: auto;
+    padding: 10px 25px;
+    border-radius: 6px;
+    border: 1px dashed #FFBE2E;
+    background-color: #0E0D0C;;
+    margin-right: 15px;
+    margin-bottom: 50px;
+  }
+  .newTag {
+    font-weight: 300;
+    font-size: 17px;
+    line-height: 20px;
+    text-align: center;
+    letter-spacing: 0.04em;
+  }
+  .addTags {
+    font-weight: 300;
+    opacity: 0.4;
+    text-align: right;
+    margin-right: 10px;
+    margin-top: 10px;
+  }
+  .textArea {
+    opacity: 0.4;
+    border-radius: 6px;
+  }
+  .btn {
+    margin-top: 50px;
+    font-weight: 600;
+    padding: 15px 40px;
+    border-radius: 10px;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    background: var(--primary);
+    color: #1F1F1F;
+  }
+}
